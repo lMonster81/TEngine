@@ -1,0 +1,36 @@
+{
+    "author": {
+        "name": "TangXiao",
+        "email": "574809918@qq.com",
+        "url": "https://github.com/ALEXTANGXIAO"
+    },
+    "name": "com.tx.tengine",
+    "displayName": "TEngine",
+    "version": "1.0.0",
+    "unity": "2019.4",
+    "description": "TEngine for Unity.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Occlusion",
+    "keywords": [
+        "tx",
+        "tengine",
+        "TEngine",
+        "hotfix",
+        "hotupdate",
+        "core"
+    ],
+    "samples": [
+        {
+            "displayName": "NetFrameWork",
+            "description": "NetFrameWork",
+            "path": "NetFrameWork~"
+        },
+        {
+            "displayName": "UIFrameWork",
+            "description": "UIFrameWork",
+            "path": "UIFrameWork~"
+        }
+    ],
+    "documentationUrl": "http://1.12.241.46:5000/",
+    "changelogUrl": "http://1.12.241.46:5000/",
+    "licensesUrl": "http://1.12.241.46:5000/",
+    "dependencies": {}
+}
