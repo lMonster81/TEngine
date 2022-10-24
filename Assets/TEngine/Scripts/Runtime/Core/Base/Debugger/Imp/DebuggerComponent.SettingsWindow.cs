@@ -49,42 +49,49 @@ namespace TEngine.Runtime
                 {
                     m_LastIconX = m_DebuggerComponent.IconRect.x;
                     m_SettingComponent.SetFloat("Debugger.Icon.X", m_DebuggerComponent.IconRect.x);
+                    m_SettingComponent.Save();
                 }
 
                 if (m_LastIconY != m_DebuggerComponent.IconRect.y)
                 {
                     m_LastIconY = m_DebuggerComponent.IconRect.y;
                     m_SettingComponent.SetFloat("Debugger.Icon.Y", m_DebuggerComponent.IconRect.y);
+                    m_SettingComponent.Save();
                 }
 
                 if (m_LastWindowX != m_DebuggerComponent.WindowRect.x)
                 {
                     m_LastWindowX = m_DebuggerComponent.WindowRect.x;
                     m_SettingComponent.SetFloat("Debugger.Window.X", m_DebuggerComponent.WindowRect.x);
+                    m_SettingComponent.Save();
                 }
 
                 if (m_LastWindowY != m_DebuggerComponent.WindowRect.y)
                 {
                     m_LastWindowY = m_DebuggerComponent.WindowRect.y;
                     m_SettingComponent.SetFloat("Debugger.Window.Y", m_DebuggerComponent.WindowRect.y);
+                    m_SettingComponent.Save();
                 }
 
                 if (m_LastWindowWidth != m_DebuggerComponent.WindowRect.width)
                 {
                     m_LastWindowWidth = m_DebuggerComponent.WindowRect.width;
                     m_SettingComponent.SetFloat("Debugger.Window.Width", m_DebuggerComponent.WindowRect.width);
+                    m_SettingComponent.Save();
                 }
 
                 if (m_LastWindowHeight != m_DebuggerComponent.WindowRect.height)
                 {
                     m_LastWindowHeight = m_DebuggerComponent.WindowRect.height;
                     m_SettingComponent.SetFloat("Debugger.Window.Height", m_DebuggerComponent.WindowRect.height);
+                    m_SettingComponent.Save();
                 }
 
                 if (m_LastWindowScale != m_DebuggerComponent.WindowScale)
                 {
                     m_LastWindowScale = m_DebuggerComponent.WindowScale;
                     m_SettingComponent.SetFloat("Debugger.Window.Scale", m_DebuggerComponent.WindowScale);
+                    m_SettingComponent.Save();
                 }
             }
 
